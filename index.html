@@ -343,6 +343,21 @@ body{
 .nostripes > span::after {
   background-image: none;
 }
+::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: #adadad; 
+}
 </style>
 <script>$(".meter > span").each(function () {
     $(this)
